@@ -1,0 +1,173 @@
+﻿{
+  "configurations": [
+    {
+      "name": "ESP-IDF_4_4-ESP32C3",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "inheritEnvironments": [ "linux_x64" ],
+      "buildRoot": "${projectDir}\\build",
+      "installRoot": "${projectDir}\\install",
+      "cmakeCommandArgs": "--warn-uninitialized",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "environments": [
+        {
+          "_COMPILER": "\\tools\\riscv32-esp-elf\\esp-2021r2-patch2-8.4.0\\riscv32-esp-elf\\bin",
+          "_INCLUDE": "\\tools\\riscv32-esp-elf\\esp-2021r2-patch2-8.4.0\\riscv32-esp-elf\\riscv32-esp-elf\\include",
+          "IDF_GIT_DIR": "F:\\_DEVELOP_\\.espressif\\tools\\idf-git\\2.30.1\\cmd",
+          "GIT_EXECUTABLE": "${env.IDF_GIT_DIR}\\git.exe",
+          "IDF_PATH": "F:\\_DEVELOP_\\esp-idf",
+          "IDF_TOOLS_PATH": "F:\\_DEVELOP_\\.espressif",
+          "IDF_PYTHON_DIR": "C:\\Users\\usuality\\AppData\\Local\\Programs\\Python\\Python37",
+          "IDF_PYTHON_ENV_PATH": "${env.IDF_TOOLS_PATH}\\python_env\\idf4.4_py3.8_env",
+          "OPENOCD_SCRIPTS": "${env.IDF_TOOLS_PATH}\\tools\\openocd-esp32\\v0.11.0-esp32-20211220\\openocd-esp32\\share\\openocd\\scripts",
+          "PATH": "${env.IDF_TOOLS_PATH}${env._COMPILER};${env.IDF_TOOLS_PATH}\\tools\\ninja\\1.10.2\\;${env.IDF_TOOLS_PATH}\\tools\\idf-exe\\1.0.3\\;${env.IDF_TOOLS_PATH}\\tools\\ccache\\4.3\\;${env.IDF_TOOLS_PATH}\\python_env\\idf4.4_py3.8_env\\Scripts;${env.IDF_PATH}\\tools;${env.IDF_PATH};${env.PATH}",
+          "INCLUDE": "${env.IDF_TOOLS_PATH}${env._INCLUDE};${env.IDF_PATH}\\components;${env.INCLUDE}",
+          "FLASH_COM_PORT": "COM4",
+          "environment": "linux_x64"
+        }
+      ],
+      "intelliSenseMode": "windows-clang-x64",
+      "variables": [
+        {
+          "name": "IDF_TARGET",
+          "value": "esp32c3",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "${env.IDF_TOOLS_PATH}\\tools\\ninja\\1.10.2\\ninja.exe",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "CCACHE_ENABLE",
+          "value": "1",
+          "type": "STRING"
+        },
+        {
+          "name": "ESP_PLATFORM",
+          "value": "1",
+          "type": "STRING"
+        },
+        {
+          "name": "GIT_EXECUTABLE",
+          "value": "${env.IDF_GIT_DIR}\\git.exe",
+          "type": "FILEPATH"
+        }
+      ]
+    },
+    {
+      "name": "ESP-IDF_4_4-ESP32",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "buildRoot": "${projectDir}\\build",
+      "installRoot": "${projectDir}\\install",
+      "cmakeCommandArgs": "--warn-uninitialized",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "linux_x64" ],
+      "environments": [
+        {
+          "_COMPILER": "\\tools\\xtensa-esp32-elf\\esp-2021r2-patch2-8.4.0\\xtensa-esp32-elf\\bin",
+          "_INCLUDE": "\\tools\\xtensa-esp32-elf\\esp-2021r2-patch2-8.4.0\\xtensa-esp32-elf\\xtensa-esp32-elf\\include",
+          "IDF_GIT_DIR": "F:\\_DEVELOP_\\.espressif\\tools\\idf-git\\2.30.1\\cmd",
+          "GIT_EXECUTABLE": "${env.IDF_GIT_DIR}\\git.exe",
+          "IDF_PATH": "F:\\_DEVELOP_\\esp-idf",
+          "IDF_TOOLS_PATH": "F:\\_DEVELOP_\\.espressif",
+          "IDF_PYTHON_DIR": "C:\\Users\\usuality\\AppData\\Local\\Programs\\Python\\Python37",
+          "IDF_PYTHON_ENV_PATH": "${env.IDF_TOOLS_PATH}\\python_env\\idf4.4_py3.8_env",
+          "OPENOCD_SCRIPTS": "${env.IDF_TOOLS_PATH}\\tools\\openocd-esp32\\v0.11.0-esp32-20211220\\openocd-esp32\\share\\openocd\\scripts",
+          "PATH": "${env.IDF_TOOLS_PATH}${env._COMPILER};${env.IDF_TOOLS_PATH}\\tools\\ninja\\1.10.2\\;${env.IDF_TOOLS_PATH}\\tools\\idf-exe\\1.0.3\\;${env.IDF_TOOLS_PATH}\\tools\\ccache\\4.3\\;${env.IDF_TOOLS_PATH}\\python_env\\idf4.4_py3.8_env\\Scripts;${env.IDF_PATH}\\tools;${env.IDF_PATH};${env.PATH}",
+          "INCLUDE": "${env.IDF_TOOLS_PATH}${env._INCLUDE};${env.IDF_PATH}\\components;${env.INCLUDE}",
+          "FLASH_COM_PORT": "COM4",
+          "environment": "linux_x64"
+        }
+      ],
+      "variables": [
+        {
+          "name": "IDF_TARGET",
+          "value": "esp32",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "${env.IDF_TOOLS_PATH}\\tools\\ninja\\1.10.2\\ninja.exe",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "CCACHE_ENABLE",
+          "value": "1",
+          "type": "STRING"
+        },
+        {
+          "name": "ESP_PLATFORM",
+          "value": "1",
+          "type": "STRING"
+        },
+        {
+          "name": "GIT_EXECUTABLE",
+          "value": "${env.IDF_GIT_DIR}\\git.exe",
+          "type": "FILEPATH"
+        }
+      ],
+      "intelliSenseMode": "windows-clang-x64"
+    },
+    {
+      "name": "ESP-IDF_4_4-esp32s3",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "buildRoot": "${projectDir}\\build",
+      "installRoot": "${projectDir}\\install",
+      "cmakeCommandArgs": "--warn-uninitialized",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "linux_x64" ],
+      "environments": [
+        {
+          "_COMPILER": "\\tools\\xtensa-esp32s3-elf\\esp-2021r2-patch2-8.4.0\\xtensa-esp32s3-elf\\bin",
+          "_INCLUDE": "\\tools\\xtensa-esp32s3-elf\\esp-2021r2-patch2-8.4.0\\xtensa-esp32s3-elf\\xtensa-esp32s3-elf\\include",
+          "IDF_GIT_DIR": "F:\\_DEVELOP_\\.espressif\\tools\\idf-git\\2.30.1\\cmd",
+          "GIT_EXECUTABLE": "${env.IDF_GIT_DIR}\\git.exe",
+          "IDF_PATH": "F:\\_DEVELOP_\\esp-idf",
+          "IDF_TOOLS_PATH": "F:\\_DEVELOP_\\.espressif",
+          "IDF_PYTHON_DIR": "C:\\Users\\usuality\\AppData\\Local\\Programs\\Python\\Python37",
+          "IDF_PYTHON_ENV_PATH": "${env.IDF_TOOLS_PATH}\\python_env\\idf4.4_py3.8_env",
+          "OPENOCD_SCRIPTS": "${env.IDF_TOOLS_PATH}\\tools\\openocd-esp32\\v0.11.0-esp32-20211220\\openocd-esp32\\share\\openocd\\scripts",
+          "PATH": "${env.IDF_TOOLS_PATH}${env._COMPILER};${env.IDF_TOOLS_PATH}\\tools\\ninja\\1.10.2\\;${env.IDF_TOOLS_PATH}\\tools\\idf-exe\\1.0.3\\;${env.IDF_TOOLS_PATH}\\tools\\ccache\\4.3\\;${env.IDF_TOOLS_PATH}\\python_env\\idf4.4_py3.8_env\\Scripts;${env.IDF_PATH}\\tools;${env.IDF_PATH};${env.PATH}",
+          "INCLUDE": "${env.IDF_TOOLS_PATH}${env._INCLUDE};${env.IDF_PATH}\\components;${env.INCLUDE}",
+          "FLASH_COM_PORT": "COM4",
+          "environment": "linux_x64"
+        }
+
+      ],
+      "variables": [
+        {
+          "name": "IDF_TARGET",
+          "value": "esp32s3",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "${env.IDF_TOOLS_PATH}\\tools\\ninja\\1.10.2\\ninja.exe",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "CCACHE_ENABLE",
+          "value": "1",
+          "type": "STRING"
+        },
+        {
+          "name": "ESP_PLATFORM",
+          "value": "1",
+          "type": "STRING"
+        },
+        {
+          "name": "GIT_EXECUTABLE",
+          "value": "${env.IDF_GIT_DIR}\\git.exe",
+          "type": "FILEPATH"
+        }
+      ],
+      "intelliSenseMode": "windows-clang-x64"
+    }
+  ]
+}
