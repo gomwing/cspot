@@ -23,7 +23,7 @@
           "OPENOCD_SCRIPTS": "${env.IDF_TOOLS_PATH}\\tools\\openocd-esp32\\v0.11.0-esp32-20211220\\openocd-esp32\\share\\openocd\\scripts",
           "PATH": "${env.IDF_TOOLS_PATH}${env._COMPILER};${env.IDF_TOOLS_PATH}\\tools\\ninja\\1.10.2\\;${env.IDF_TOOLS_PATH}\\tools\\idf-exe\\1.0.3\\;${env.IDF_TOOLS_PATH}\\tools\\ccache\\4.3\\;${env.IDF_TOOLS_PATH}\\python_env\\idf4.4_py3.8_env\\Scripts;${env.IDF_PATH}\\tools;${env.IDF_PATH};${env.PATH}",
           "INCLUDE": "${env.IDF_TOOLS_PATH}${env._INCLUDE};${env.IDF_PATH}\\components;${env.INCLUDE}",
-          "FLASH_COM_PORT": "COM4",
+          "FLASH_COM_PORT": "COM3",
           "environment": "linux_x64"
         }
       ],
@@ -79,7 +79,7 @@
           "OPENOCD_SCRIPTS": "${env.IDF_TOOLS_PATH}\\tools\\openocd-esp32\\v0.11.0-esp32-20211220\\openocd-esp32\\share\\openocd\\scripts",
           "PATH": "${env.IDF_TOOLS_PATH}${env._COMPILER};${env.IDF_TOOLS_PATH}\\tools\\ninja\\1.10.2\\;${env.IDF_TOOLS_PATH}\\tools\\idf-exe\\1.0.3\\;${env.IDF_TOOLS_PATH}\\tools\\ccache\\4.3\\;${env.IDF_TOOLS_PATH}\\python_env\\idf4.4_py3.8_env\\Scripts;${env.IDF_PATH}\\tools;${env.IDF_PATH};${env.PATH}",
           "INCLUDE": "${env.IDF_TOOLS_PATH}${env._INCLUDE};${env.IDF_PATH}\\components;${env.INCLUDE}",
-          "FLASH_COM_PORT": "COM4",
+          "FLASH_COM_PORT": "COM3",
           "environment": "linux_x64"
         }
       ],
@@ -135,7 +135,7 @@
           "OPENOCD_SCRIPTS": "${env.IDF_TOOLS_PATH}\\tools\\openocd-esp32\\v0.11.0-esp32-20211220\\openocd-esp32\\share\\openocd\\scripts",
           "PATH": "${env.IDF_TOOLS_PATH}${env._COMPILER};${env.IDF_TOOLS_PATH}\\tools\\ninja\\1.10.2\\;${env.IDF_TOOLS_PATH}\\tools\\idf-exe\\1.0.3\\;${env.IDF_TOOLS_PATH}\\tools\\ccache\\4.3\\;${env.IDF_TOOLS_PATH}\\python_env\\idf4.4_py3.8_env\\Scripts;${env.IDF_PATH}\\tools;${env.IDF_PATH};${env.PATH}",
           "INCLUDE": "${env.IDF_TOOLS_PATH}${env._INCLUDE};${env.IDF_PATH}\\components;${env.INCLUDE}",
-          "FLASH_COM_PORT": "COM4",
+          "FLASH_COM_PORT": "COM3",
           "environment": "linux_x64"
         }
 
