@@ -36,7 +36,7 @@
 
 
 // Config sink
-#define PCM5102 //ES8018 //ES8388 //AC101 // INTERNAL, AC101, ES8018, ES8388, PCM5102
+#define ES8388 //PCM5102 //ES8018 //ES8388 //AC101 // INTERNAL, AC101, ES8018, ES8388, PCM5102
 #define QUALITY     320      // 320, 160, 96
 #define DEVICE_NAME "CSpot-ESP32"
 
@@ -51,6 +51,9 @@
 #endif
 #ifdef PCM5102
 #include <PCM5102AudioSink.h>
+#endif
+#ifdef ES8388
+#include <ES8388AudioSink.h>
 #endif
 
 static const char *TAG = "cspot";
@@ -87,7 +90,9 @@ static void cspotTask(void *pvParameters)
 #ifdef PCM5102
     auto audioSink = std::make_shared<PCM5102AudioSink>();
 #endif
-
+#ifdef ES8388
+    auto audioSink = std::make_shared<ES8388AudioSink>();
+#endif
     // Config file
     file = std::make_shared<ESPFile>();
     configMan = std::make_shared<ConfigJSON>("/spiffs/config.json", file);
